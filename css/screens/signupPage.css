@@ -11,7 +11,7 @@
 }
 .signup-section .signup-container form{
     background-color: var(--white-color);
-    border-radius: .5rem;
+    border-radius: 5px;
     box-shadow: var(--box-shadow);
     padding: .7rem 1rem;
 }
