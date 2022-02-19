@@ -12,10 +12,6 @@ header .left .brand-heading{
     left: 0;
     right: 0;
     max-width: 70vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .login-section .login-container form{
     background-color: var(--white-color);
@@ -55,7 +51,6 @@ header .left .brand-heading{
     margin-bottom: var(--mb-1);
 }
 form small{
-    display: flex;
     font-size: var(--smaller-font-size);
 }
 form small a{
