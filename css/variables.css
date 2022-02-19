@@ -64,3 +64,21 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
 }
+
+/* utils */
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-space{
+    justify-content: space-between;
+}
