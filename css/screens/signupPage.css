@@ -2,11 +2,7 @@
 
 
 .signup-section .signup-container{
-    position: fixed;
     padding: 2rem;
-    top: 13%;
-    left: 0;
-    right: 0;
     max-width: 70vw;
 }
 .signup-section .signup-container form{
