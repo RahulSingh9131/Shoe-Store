@@ -1,0 +1,15 @@
+/* css for wishlist */
+
+/* css for wishlist section */
+
+.wishlist-contents{
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+}
+.wishlist-heading{
+    margin-top: var(--mb-1);
+}
+.wishlist-contents .card{
+    flex: 1 1 20rem;
+    margin: var(--mb-1);
+}
