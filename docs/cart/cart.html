@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | ShoeStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pegasus-ui.netlify.app/css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="navigation-container">
+                <div class="left">
+                    <h5 class="brand-heading">ShoeStore</h5>
+                </div>
+                <div class="middle">
+                    <input type="search" placeholder="search here.." id="search-input">
+                    <label for="search-input" class="fas fa-search"></label>
+                </div>
+                <div class="right">
+                    <nav class="nav-links">
+                        <a href="#" class="fas fa-user"> Logout</a>
+                        <a href="#" class="fa fa-shopping-cart"> cart</a>
+                        <a href="#" class="fas fa-heart"> wishlist</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="cart-section">
+            <div class="section-heading center-text">
+                <h1>My Cart <small>(2 items)</small> </h1>
+            </div>
+            <div class="section-contents container flex justify-space">
+                <div class="card card-horizontal">
+                    <div class="card-top">
+                        <img class="card-img" src= "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80" alt="cartImage" >
+                    </div>
+                    <div class="card-bottom">
+                        <div class="card-body">
+                            <h1 class="body-title">Sneaker</h1>
+                            <div class="body-text">
+                                <p>₹ 1299</p>
+                                <p class="text-overline">₹ 1500</p>
+                                <span>(10% off)</span>
+                            </div>
+                            <div class="quantity-text flex align-center">
+                                <p>Quantity :</p>
+                                <button class="quantity-btn flex justify-center align-center">+</button>
+                                <small>1</small>
+                                <button class="quantity-btn flex justify-center align-center">-</button>
+                            </div>
+                        </div>
+                        <div class="card-button card-horizontal-btn">
+                            <button class="card-btn">Remove from Cart</button>
+                            <button class="card-btn">Move To Wishlist</button>
+                         </div>
+                    </div>
+                </div>
+                <div class="card card-horizontal">
+                    <div class="card-top">
+                        <img class="card-img" src= "https://images.unsplash.com/photo-1576672843344-f01907a9d40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="cartImage" >
+                    </div>
+                    <div class="card-bottom">
+                        <div class="card-body">
+                            <h1 class="body-title">Sports Shoes</h1>
+                            <div class="body-text">
+                                <p>₹ 1500</p>
+                                <p class="text-overline">₹ 1700</p>
+                                <span>(7% off)</span>
+                            </div>
+                            <div class="quantity-text flex align-center">
+                                <p>Quantity :</p>
+                                <button class="quantity-btn flex justify-center align-center">+</button>
+                                <small>1</small>
+                                <button class="quantity-btn flex justify-center align-center">-</button>
+                            </div>
+                        </div>
+                        <div class="card-button card-horizontal-btn">
+                            <button class="card-btn">Remove from Cart</button>
+                            <button class="card-btn">Move To Wishlist</button>
+                         </div>
+                    </div>
+                </div>
+                <div class="card text-only-card">
+                    <div class="card-bottom">
+                        <div class="card-body">
+                            <h1 class="body-title">Price Detail</h1>
+                            <div class="body-text flex justify-space align-center">
+                                <p>Price <small>(2)</small> items</p>
+                                <p>₹ 3200</p>
+                            </div>
+                            <div class="body-text flex justify-space align-center">
+                                <p>Discount</p>
+                                <p> - ₹ 400</p>
+                            </div>
+                            <div class="body-text flex justify-space align-center">
+                                <p>Delivery Charges</p>
+                                <p>₹ 499</p>
+                            </div>
+                            <div class="body-text flex justify-space align-center">
+                                <p>Total Amount</p>
+                                <p>₹ 3299</p>
+                            </div>
+                            <div class="body-text body-message">
+                                <p>
+                                   You have saved a total of ₹ 400 on this purchase. Please proceed further and place order.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <button class="card-btn">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bottom-area">
+            <div class="container">
+                <p>Designed and built with love. </p>
+                <small>© Rahul Singh</small>
+                <div class="footer-links">
+                    <i class="fa fa-github"></i>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
